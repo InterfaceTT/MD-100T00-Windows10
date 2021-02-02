@@ -48,7 +48,8 @@ disabled. You decide to use a domain wide GPO that is scoped to LON-CL2.
 
 10. In the details pane, double-click **Interactive Logon: Message text for
     users attempting to log on**.  
-    *Note: It is just above the item from step 9.*
+    
+    _Note: It is just above the item from step 9._
 
 11. In the **Interactive Logon: Message text for users attempting to log on**
     dialog box, select the **Define this policy setting in the template** check
@@ -100,18 +101,19 @@ disabled. You decide to use a domain wide GPO that is scoped to LON-CL2.
 
 2.  On **LON-CL2** select **Start** and type **cmd**. Press **Enter**
 
-3.  At the command prompt, type gpupdate /force, and then press Enter.
+3.  At the command prompt, type **gpupdate /force**, and then press Enter.
 
-4.  After the update reports success, type Shutdown /r /t 0 and then press Enter
+4.  After the update reports success, type **shutdown /r /t 0** and then press Enter
 
 5.  Note that **LON-CL2** restarts.
 
 6.  Note that the message "Attention! This computer is used for Adatum
     Corporation development and testing only! Do not use on the production
     network!" appears. Select **OK**, and then sign in as
-    **Adatum\\Administrator** with the password **Pa55w.rd**.  
-    **Note:** In the rest of this lab in this module, you must select OK to
-    accept the message.
+    **Adatum\\Administrator** with the password **Pa55w.rd**.
+
+    _Note: In the rest of this lab in this module, you must select OK to
+    accept the message._
 
 7.  On the taskbar, in the **Type here to search** box, type **Services**, and
     then press **Enter**.
